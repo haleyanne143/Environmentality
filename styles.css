@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Quicksand;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+}
+
+.title{
+    color: #17B169;
+    font-size: 24px;
+    padding: 15px;
+    font-weight: bold;
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+    width: 320px;
+    padding: 5px;
+    gap: 30px;
+    
+}
+
+a{
+    text-decoration:none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.top{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.topwords{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px;
+    height: 300px;
+    width: 700px;
+    
+}
+
+.heading1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    height: 120px;
+    width: 650px;
+    
+}
+
+.para2{
+    font-size: 18px;
+    color: #E5E7EB;
+    height: 120px;
+    width: 650px;
+}
+
+.button{
+    background-color:#17B169;
+    color: #1F2937;
+    height: 24px;
+    width: 70px;
+}
+
+.homepic{
+    height: 220px;
+    width: 370px;
+    margin: 10px;
+    align-content: center;
+    
+}
+
+.greenbox{
+    background-color: #17B169;
+}
+
+.copyright{
+    background-color: #1F2937;
+    color: #E5E7EB
+}
+
