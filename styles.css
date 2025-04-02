@@ -105,6 +105,15 @@ a{
 
 .linephotos{
     display: flex;
+    gap: 45px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.subtext{
+    height: 100px;
+    width: 210px;
+    text-align: center;
 }
 
 .greenbox{
