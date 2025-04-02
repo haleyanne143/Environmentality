@@ -1,14 +1,12 @@
 body{
-    display: flex;
-    flex-direction: column;
     font-family: Quicksand;
 }
 
 .header{
     display: flex;
     background-color: #1F2937;
-    padding: 5px;
     justify-content: space-around;
+    padding: 5px;
     align-items: center;
 }
 
@@ -64,7 +62,6 @@ a{
     height: 120px;
     width: 650px;
     margin: 10px;
-    
 }
 
 .para2{
@@ -116,8 +113,52 @@ a{
     text-align: center;
 }
 
+.middlebottom{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 125px;
+}
+
+.quote{
+    font-size: 36px;
+    text-align: center;
+}
+
+.author{
+    font-size: 25px;
+    text-align: right;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
 .greenbox{
+    display: flex;
+    justify-content: space-around;
     background-color: #17B169;
+    height: 90px;
+    width: 750px;
+    padding: 30px;
+    color: #F9FAF8;
+    align-items: center;
+}
+
+.call{
+    font-weight: 900;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.click{
+    margin: 0;
 }
 
 .copyright{
