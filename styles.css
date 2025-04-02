@@ -46,14 +46,12 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 40px;
 }
 
 .topwords{
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    margin: 15px;
     height: 300px;
     width: 700px;
     
@@ -65,6 +63,7 @@ a{
     font-weight: 900;
     height: 120px;
     width: 650px;
+    margin: 10px;
     
 }
 
@@ -72,7 +71,8 @@ a{
     font-size: 18px;
     color: #E5E7EB;
     height: 120px;
-    width: 650px;
+    width: 600px;
+    margin: 10px;
 }
 
 .button{
@@ -80,6 +80,7 @@ a{
     color: #1F2937;
     height: 24px;
     width: 70px;
+    margin: 10px;
 }
 
 .homepic{
@@ -87,7 +88,23 @@ a{
     width: 370px;
     margin: 10px;
     align-content: center;
-    
+}
+
+.middletop{
+    display:flex;
+    flex-direction: column;
+}
+
+.heading2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 40px;
+}
+
+.linephotos{
+    display: flex;
 }
 
 .greenbox{
