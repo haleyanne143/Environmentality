@@ -161,6 +161,18 @@ a{
     margin: 0;
 }
 
+.signup{
+    background-color: #17B169;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    width: 90px;
+    font-size: 13px;
+    color:#F9FAF8;
+    padding: 5px;
+    font-weight: 900;
+    
+}
+
 .copyright{
     background-color: #1F2937;
     color: #E5E7EB
